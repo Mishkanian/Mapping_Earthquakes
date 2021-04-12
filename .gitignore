@@ -1,0 +1,5 @@
+# ignore API key
+config.js
+
+# ignore additional files
+.DS_Store
