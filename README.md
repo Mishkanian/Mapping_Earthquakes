@@ -24,7 +24,7 @@ The purpose of this project is to create visualizations of earthquake data from 
 // API key
 const API_KEY = 'paste-your-mapbox-api-key-here';
  ```
-3. Open a new terminal at the Earthquake_Challenge folder and run the following code to start a live server:
+3. Open a new terminal at the Earthquake_Challenge folder and run the following command to start a live server:
 ```terminal
 python -m http.server
 ```
