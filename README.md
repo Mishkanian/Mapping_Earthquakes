@@ -1,7 +1,7 @@
 # Mapping Earthquakes with Leaflet and Mapbox
 
 ## Project Overview
-The purpose of this project is to create visualizations of earthquake data using Leaflet.js and Mapbox API. These earthquakes are visually represented by circles and colors, where a higher magnitude will have a larger diameter and will be darker in color.
+The purpose of this project is to create visualizations of earthquake data from the U.S. Geological Survey using Leaflet.js and Mapbox API. These earthquakes are visually represented by circles and colors, where a higher magnitude will have a larger diameter and will be darker in color. Popup markers and multiple map styles are also included in the map to improve the user experience.
 
 ## Software and APIs
 
@@ -32,9 +32,13 @@ python -m http.server
 
 ### Layer Controls and Legend
 
-This map allows users to change layers by using the layer control panel found in the top right of the map. In the example below, the user has selected the "Dark Mode" map style and has enabled all earthquake data layers. Selecting a different map style will quickly reload the map with updated styling. Additionally, a [Map Legend](https://github.com/Mishkanian/Mapping_Earthquakes/blob/main/README_images/map_legend.png) is visible in the bottom right section of the map to explain the meaning of the circle colors found on the map.
+This map allows users to change layers by using the layer control panel found in the top right of the map. In the example below, the user has selected the "Dark Mode" map style and has enabled all earthquake data layers. Selecting a different map style will quickly reload the map with updated styling. Additionally, a [Map Legend](https://github.com/Mishkanian/Mapping_Earthquakes/blob/main/README_images/map_legend.png) is visible in the bottom right section of the map to explain the meaning of the circle colors found on the map.  
 
 ![layer_controls](https://github.com/Mishkanian/Mapping_Earthquakes/blob/main/README_images/layer_controls.png)  
+
+### Popup Markers
+
+Clicking on an earthquake on the map will generate a popup marker that describes the magnitude and the location of the earthquake. All data appearing in these popups are from the U.S. [Geological Survey](https://www.usgs.gov/natural-hazards/earthquake-hazards/earthquakes), specifically the organization that tracks Earthquake Hazard data. The raw data is stored in JSON format. If you would like to see an example of the data, please [click here](https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_week.geojson).
 
 **Author: Michael Mishkanian**  
 For all questions and inquiries, please contact me on [LinkedIn](https://www.linkedin.com/in/michaelmishkanian/).
