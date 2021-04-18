@@ -38,7 +38,7 @@ This map allows users to change layers by using the layer control panel found in
 
 ### Popup Markers
 
-Clicking on an earthquake on the map will generate a popup marker that describes the magnitude and the location of the earthquake. All data appearing in these popups are from the U.S. [Geological Survey](https://www.usgs.gov/natural-hazards/earthquake-hazards/earthquakes), specifically the organization that tracks Earthquake Hazard data. The raw data is stored in JSON format. If you would like to see an example of the data, please [click here](https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_week.geojson).
+Clicking on an earthquake on the map will generate a popup marker that describes the magnitude and the location of the earthquake. All data appearing in these popups are from the U.S. [Geological Survey](https://www.usgs.gov/natural-hazards/earthquake-hazards/earthquakes), specifically the organization that tracks Earthquake Hazard data. The data is stored in GeoJSON format. If you would like to see an example of the data, please [click here](https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_week.geojson).
 
 **Author: Michael Mishkanian**  
 For all questions and inquiries, please contact me on [LinkedIn](https://www.linkedin.com/in/michaelmishkanian/).
