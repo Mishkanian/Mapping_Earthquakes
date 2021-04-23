@@ -17,7 +17,7 @@ The purpose of this project is to create visualizations of earthquake data from 
 
 ![completed_project](https://github.com/Mishkanian/Mapping_Earthquakes/blob/main/README_images/completed_mapbox.png)  
 
-1. Download the [Earthquakes_Challenge](https://github.com/Mishkanian/Mapping_Earthquakes/tree/main/Earthquakes_Challenge) folder found in this repository.
+1. Download the [static](https://github.com/Mishkanian/Mapping_Earthquakes/tree/main/static) folder and [index.html](https://github.com/Mishkanian/Mapping_Earthquakes/blob/main/index.html) file found in the main branch of this repository.
 
 2. After obtaining an API key from [Mapbox](https://www.mapbox.com/), create a file called "config.js" and place it inside of the js folder, which is found inside of the static folder. Use the template below for your config.js file. **DO NOT UPLOAD OR SHARE YOUR API KEY WITH ANYONE.**
  ```javascript
